@@ -8,15 +8,15 @@ Multiple regression using XGboost
 ## Approach
  
 
-First I've just used the basic multiple regression model and got around 70% efficiency .
+First I've just used the basic multiple regression model and got around **70%** efficiency .
 
-After that I used Xgboost in my model which significantly increased the efficiency to 81%.
+After that I used Xgboost in my model which significantly increased the efficiency to **81%**.
 
 Then I went for Hyperparameters in Xgboost and tested RandomSearchCV and 
 
-GradientSearchCV in which GradientSearchCV has 90.833% efficiency  and RandomSearchCV
+GradientSearchCV in which GradientSearchCV has **90.833%** efficiency  and RandomSearchCV
 
-has 91% efficiency so I went for RandomizedSearchCV.
+has **91%** efficiency so I went for RandomizedSearchCV.
 
 In all above models I've splited the training set into two parts by using train_test_split
 
