@@ -14,7 +14,7 @@ After that I used Xgboost in my model which significantly increased the efficien
 
 Then I went for Hyperparameters in Xgboost and tested RandomSearchCV and 
 
-GradientSearchCV in which GradientSearchCV has **90.833%** efficiency  and RandomSearchCV
+GridSearchCV in which GridSearchCV has **90.833%** efficiency  and RandomSearchCV
 
 has **91%** efficiency so I went for RandomizedSearchCV.
 
